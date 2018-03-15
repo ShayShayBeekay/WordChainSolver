@@ -1,4 +1,5 @@
 import java.util.Stack;
+// import WordChain;
 
 /**
  * @author Shay Brennan-Kelly
@@ -7,12 +8,12 @@ public class WordChainImplementation implements WordChain {
     private String [] dict;
     private int depth;
 
-    public WordChainImpl(String[] wordList, int depth) {
+    public WordChainImplementation(String[] wordList, int depth) {
         this.dict = wordList;
         this.depth = depth;
     }
 
-    public WordChainImpl(String[] wordList) {
+    public WordChainImplementation(String[] wordList) {
         this(wordList, 10);
     }
 

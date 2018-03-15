@@ -9,4 +9,6 @@ Composed of 3 files:
 
 Tests for each implemented in JUnit in test folder
 
-To build app run "mvn clean install". This will build a snapshot of the application in the target folder. This can then be deployed to a server and run
+To build app run "mvn clean install". This will build a snapshot of the application in the target folder. 
+
+This can then be deployed to a server and run.
